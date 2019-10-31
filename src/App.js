@@ -2,14 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import StateHookExample from './components/state-hook';
+import StateHookComponent from './components/state-hook';
+import EffectHookComponent from './components/effect-hook'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <StateHookExample />
+        <StateHookComponent />
+        <EffectHookComponent />
       </header>
     </div>
   );
